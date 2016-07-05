@@ -1,0 +1,23 @@
+{
+  "name": "mytripguide",
+  "version": "1.0.0",
+  "description": "young's project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jooyoung91/MyTripGuide.git"
+  },
+  "author": "Jooyoung Bae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jooyoung91/MyTripGuide/issues"
+  },
+  "homepage": "https://github.com/jooyoung91/MyTripGuide#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
