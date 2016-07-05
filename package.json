@@ -4,8 +4,8 @@
   "description": "young's project",
   "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "grunt": "grunt",
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,13 @@
   },
   "homepage": "https://github.com/jooyoung91/MyTripGuide#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^5.5.1",
+    "grunt-tslint": "^3.1.1",
+    "tslint": "^3.13.0",
+    "typescript": "^1.8.10"
   }
 }
